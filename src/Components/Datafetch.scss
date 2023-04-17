@@ -1,21 +1,29 @@
-.main-list{
-    position: relative;
-    display: flex;
-    flex-direction: column;
+.main-list {
+  position: relative;
+  display: flex;
+  flex-direction: column;
 }
-.list{
-    position: absolute;
-    background-color: whitesmoke;
-    z-index: 1;
-    margin-top: 10px;
+.list {
+  position: absolute;
+  background-color: whitesmoke;
+  z-index: 1;
+  margin-top: 10px;
 }
-.a{
-    list-style-type: none;
-    padding: 2px;
-    margin-top: 5px;
-    text-align: start;
-    font-family: 'Verdana';
+.a {
+  list-style-type: none;
+  padding: 2px;
+  margin-top: 5px;
+  text-align: start;
+  font-family: "Verdana";
 }
-.btn1{
-    margin-left: 10px;
+.btn1 {
+  margin-left: 10px;
+}
+.card {
+  width: 350px !important;
+  height: 230px !important;
+  justify-content: space-between;
+  box-shadow: -1px 10px 30px -3px rgba(0, 0, 0, 0.75);
+  border-radius: 10px;
+  margin: 8px;
 }
